@@ -4,3 +4,43 @@ body {
   background-color: linen;
   margin: 1.5rem;
 }
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  background-color: yellow;
+  display: inline-block;
+  border: 1px solid maroon;
+  padding: 1rem;
+  list-style-type: none;
+  margin: 0.5rem;
+}
+
+li {
+
+}
+
+#animal-list, #new-animal-form {
+  border: 1px solid maroon;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+#new-animal-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24rem;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+wrapper {
+  margin-left: auto;
+  margin-right: auto;
+
+}
