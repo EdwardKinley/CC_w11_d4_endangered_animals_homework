@@ -8,14 +8,25 @@
   </head>
   <body>
 
+    <h3>Add new animal</h3>
+
     <form id="new-animal-form">
       <div>
         <label for="name">Name</label>
-        <input type="text" id="name" required value="Kat">
+        <input type="text" id="name" required value="Jack">
       </div>
       <div>
         <label for="species">Species</label>
-        <input type="text" id="species" required value="cat">
+        <input type="text" id="species" required value="black rhinocerous">
+      </div>
+      <div>
+        Bred:
+        <input type="radio" name="bred" id="captivity" value="in captivity" checked>
+        <label for="radio">in captivity</label>
+        <input type="radio" name="bred" id="wild" value="in the wild">
+        <label for="radio">in the wild</label>
+        <input type="radio" name="bred" id="unknown" value="unknown">
+        <label for="radio">unknown</label>
       </div>
       <div>
         <label for="continent">Continent</label>
@@ -30,27 +41,30 @@
           <option value="South America">South America</option>
         </select>
       </div>
-      <input type="submit" value="save"/>
+      <input type="submit" value="Save"/>
     </form>
 
-    <h1>Endangered animals list</h1>
+    <h3>Endangered animals list</h3>
 
     <div id="animal-list">
       <ul>
         <li>Name: Ben</li>
         <li>Species: Bengal tiger</li>
+        <li>Bred: in captivity</li>
         <li>Continent: Asia</li>
       </ul>
 
       <ul>
         <li>Name: Humphrey</li>
         <li>Species: Humblot's heron</li>
-        <li>Continent: Asia</li>
+        <li>Bred: in the wild</li>
+        <li>Continent: Africa</li>
       </ul>
 
       <ul>
         <li>Name: Leah</li>
         <li>Species: Lear's macaw</li>
+        <li>Bred: unknown</li>
         <li>Continent: South America</li>
       </ul>
     </div>
