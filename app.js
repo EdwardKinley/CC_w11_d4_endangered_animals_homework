@@ -27,4 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
     form.reset();
   });
 
+  const buttonDelete = document.querySelector('#delete-button');
+  buttonDelete.addEventListener('click', () => {
+    const animalList = document.querySelector('#animal-list')
+    animalList.textContent = '';
+    form.reset();
+  });
+
 });
