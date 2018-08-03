@@ -17,6 +17,9 @@ ul {
   list-style-type: none;
   margin: 0.5rem;
   vertical-align: top;
+  width: 14rem;
+  height: 18rem;
+  overflow: scroll;
 }
 
 li {

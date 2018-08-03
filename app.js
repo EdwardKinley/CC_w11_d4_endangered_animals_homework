@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
   console.log('JavaScript loaded');
 
+  // const createLiElement(field) {
+  //   let liElement = document.createElement("li");
+  //   liElement.textContent = ``
+  //   return liElement;
+  // };
+
   const form = document.querySelector('#new-animal-form');
   form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -9,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const species = event.target.species.value;
     const bred = event.target.bred.value;
     const continent = event.target.continent.value;
-
 
     const newAnimal = document.createElement("ul");
     const newAnimalName = document.createElement("li");
