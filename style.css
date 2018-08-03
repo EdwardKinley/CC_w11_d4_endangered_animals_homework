@@ -10,7 +10,7 @@ h1 {
 }
 
 ul {
-  background-color: yellow;
+  background-color: snow;
   display: inline-block;
   border: 1px solid maroon;
   padding: 1rem;
@@ -32,7 +32,7 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 24rem;
+  width: 25rem;
 }
 
 h3 {
@@ -42,5 +42,21 @@ h3 {
 wrapper {
   margin-left: auto;
   margin-right: auto;
+}
 
+input, button, select{
+  font-size: 1rem;
+  font-family: verdana;
+  background-color: whitesmoke;
+  border-radius: none;
+  border: 1px solid maroon;
+}
+
+.form-field {
+  margin-bottom: 0.3rem;
+}
+
+#submit {
+  font-size: 1rem;
+  border: 1px solid maroon;
 }
